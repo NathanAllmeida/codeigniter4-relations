@@ -23,7 +23,7 @@
     "homepage": "https://github.com/tattersoftware/codeigniter4-relations",
     "require": {
         "php": "^7.4 || ^8.0",
-        "tatter/schemas": "dev-jozefrebjak-develop"
+        "tatter/schemas": "dev-develop"
     },
     "require-dev": {
         "codeigniter4/framework": "^4.1",
