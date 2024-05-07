@@ -177,7 +177,7 @@ trait ModelTrait
      *
      * @return array|null
      */
-    public function findAll(int $limit = 0, int $offset = 0)
+    public function findAll(?int $limit = 0, int $offset = 0)
     {
         $data = parent::findAll($limit, $offset);
 
