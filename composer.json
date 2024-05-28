@@ -12,6 +12,7 @@
         "mapping",
         "entity"
     ],
+    "version":"1.0",
     "authors": [
         {
             "name": "Matthew Gatner",
