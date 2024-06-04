@@ -23,7 +23,7 @@
     "homepage": "https://github.com/tattersoftware/codeigniter4-relations",
     "require": {
         "php": "^8.0",
-        "tatter/schemas": "dev-develop"
+        "tatter/schemas": "2.2"
     },
     "require-dev": {
         "codeigniter4/framework": "^4.1",
@@ -31,8 +31,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "C:/xampp/htdocs/codeigniter4-schemas"
+            "type": "vcs",
+            "url": "https://github.com/NathanAllmeida/codeigniter4-schemas"
         }
     ],
     "minimum-stability": "dev",
