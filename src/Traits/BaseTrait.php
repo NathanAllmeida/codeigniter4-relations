@@ -123,6 +123,7 @@ trait BaseTrait
                 $pivot = reset($relation->pivots);
 
                 // Join this model's table (for ID filtering)
+                var_dump($pivot);
                 $builder->join($pivot[0], "{$pivot[0]}.{$pivot[1]} = {$pivot[2]}.{$pivot[3]}");
                 break;
 
