@@ -123,7 +123,18 @@ trait BaseTrait
                 $pivot = reset($relation->pivots);
 
                 // Join this model's table (for ID filtering)
-                var_dump($pivot);
+                if(is_array($pivot[0])){
+                    $pivot[0] = $pivot[0][0];
+                }
+                if(is_array($pivot[1])){
+                    $pivot[1] = $pivot[1][0];
+                }
+                if(is_array($pivot[2])){
+                    $pivot[2] = $pivot[2][0];
+                }
+                if(is_array($pivot[3])){
+                    $pivot[3] = $pivot[3][0];
+                }
                 $builder->join($pivot[0], "{$pivot[0]}.{$pivot[1]} = {$pivot[2]}.{$pivot[3]}");
                 break;
 
